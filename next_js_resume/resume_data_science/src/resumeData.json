@@ -1,0 +1,102 @@
+{
+    "basics": {
+      "name": "Bhoj Rani Soopal",
+      "label": "Data Engineer",
+      "email": "br.soopal@outlook.com",
+      "phone": "5816-6920",
+      "summary": "Versatile data engineer with expertise in pipeline design and data visualization, eager to apply technical acumen to software engineering for product development.",
+      "profiles": [
+        { "network": "LinkedIn", "username": "", "url": "https://linkedin.com/in/" },
+        { "network": "GitHub", "username": "divyashie", "url": "https://github.com/divyashie" },
+        { "network": "Medium", "username": "divyashie16", "url": "https://divyashie16.medium.com/airline-data-analysis-using-spark-technologies-d87f756328c2" }
+      ]
+    },
+    "education": [
+      {
+        "institution": "Illinois Institute of Technology, Chicago",
+        "area": "Data Science",
+        "studyType": "Master of Science",
+        "startDate": "2018-08-01",
+        "endDate": "2020-08-01",
+        "gpa": "3.2",
+        "courses": ["Data Mining", "Natural Language Processing", "Big Data Technology", "Applied Statistics"]
+      },
+      {
+        "institution": "Illinois Institute of Technology, Chicago",
+        "area": "Computer Science",
+        "studyType": "Bachelor of Science",
+        "startDate": "2016-08-01",
+        "endDate": "2020-08-01",
+        "gpa": "3.0",
+        "courses": ["Software Engineering", "Data Structures Algorithms", "Cloud Computing Databases", "Machine Learning", "Big Data Technologies", "Applied Statistics"]
+      }
+    ],
+    "skills": [
+      { "name": "Data Processing", "keywords": ["SQL", "Apache Spark", "Hadoop", "Hive", "Pig", "Presto"] },
+      { "name": "Programming Languages", "keywords": ["Python", "R", "Java", "Haskell", "JavaScript"] }
+    ],
+    "work": [
+      {
+        "company": "Apsim",
+        "position": "Junior Data Scientist",
+        "startDate": "2022-05-01",
+        "endDate": "2023-06-01",
+        "summary": "Developed a BI tool, Apache Superset, hosted in AWS Lightsail for tracking KPIs for operations, finance, and marketing.",
+        "highlights": [
+          "ETLed data from various sources, including API and database.",
+          "Utilized SQL to create dashboards for stakeholders including Managers and Executive members.",
+          "Modeled Google’s Speech Recognition phone call API with in-house candidate-headhunter conversation.",
+          "Implemented Hugging Face API to summarize candidate-headhunter conversation in French, increasing headhunter productivity."
+        ]
+      },
+      {
+        "company": "M1 Finance",
+        "position": "Data Engineer Intern — Data Engineer",
+        "startDate": "2020-05-01",
+        "endDate": "2022-12-01",
+        "summary": "Wrote different Python scripts accessing Zendesk, Finra, and marketing data at M1 to automate the ingestion process in AWS S3 and Redshift.",
+        "highlights": [
+          "Translated 10 different cron jobs to automated workflow using Apache Airflow and shell scripting.",
+          "Prepared SQL queries for profiling semi-structured data in phone number data of M1’s client.",
+          "Improved data quality of phone number data."
+        ]
+      },
+      {
+        "company": "Uptake",
+        "position": "Data Scientist Intern",
+        "startDate": "2019-05-01",
+        "endDate": "2019-08-01",
+        "summary": "Developed predictive models to analyze hardware failure utilizing the open-source Backblaze dataset.",
+        "highlights": [
+          "Employed scikit-learn libraries for XGBoost and Random Forest supervised learning algorithms.",
+          "Utilized Plotly for crafting visual confusion matrix displays.",
+          "Initiated and chaired productive meetings with fellow data scientists to refine project proposals."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Ugly Christmas Sweater",
+        "description": "Developed Streamlit Web App for User text input to train on a personality dataset that was processed and fed in the Keras LSTM model to predict a multi-category classification of 16 unique personality codes.",
+        "highlights": ["Used Cohere API, Keras, and Streamlit Cloud"],
+        "url": "https://github.com/divyashie/ugly-sweater"
+      },
+      {
+        "name": "Software Engineering Mentor",
+        "description": "Trained 2 mentees with web applications and guided them with multiple code reviews, monitored their progress and adjusted the training based on their needs.",
+        "highlights": ["Used JavaScript and Python"]
+      },
+      {
+        "name": "Airline Data Analysis",
+        "description": "Analyzed US domestic flights dataset using pyspark dataframes and predicted which flight carrier is most likely to delay or cancel.",
+        "highlights": ["Tools: AWS EMR Cluster, Zeppelin Notebook, Spark, S3 buckets"],
+        "url": "https://divyashie16.medium.com/airline-data-analysis-using-spark-technologies-d87f756328c2"
+      }
+    ],
+    "certificates": [
+      {
+        "name": "Generative AI for Software Developers",
+        "issuer": "IBM"
+      }
+    ]
+  }

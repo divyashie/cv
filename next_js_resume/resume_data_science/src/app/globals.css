@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Home Page Styles */
+body.home {
+  background-image: url('/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Contact Page Styles */
+body.contact {
+  background-image: url('/Designer3.jpg'); /* Change this to your desired image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Common Styles */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f4f8; /* Pale background for non-home pages */
+}
+
+.navbar {
+  background-color: #2d3748; /* Grey color */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.page-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px; /* Adjust the margin to position content below navbar */
+}
+
+.white-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  margin: 30px 0; /* Add margin to space out the boxes */
+}
+
+.text-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 800px;
+  width: 100%;
+  margin: 30px 0; /* Add margin to space out the boxes */
+}
+
+.image-center {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.text-content {
+  margin-top: 20px;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+/* Scroll Guide */
+.scroll-guide {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scroll-guide a {
+  display: block;
+  margin: 10px 0;
+  width: 10px;
+  height: 10px;
+  background-color: #2d3748;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.scroll-guide a:hover {
+  background-color: #ff4081;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #2d3748;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+  background-color: #ff4081;
+}
